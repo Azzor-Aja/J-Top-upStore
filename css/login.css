@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Muli', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;    
+}
+
+.container-all {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(38, 38, 39);
+}
+
+.container-all .container-in {
+    width: 100%;
+}
+
+
+.container-all .container-in .containerF {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.container-in .img img {
+    width: 700px;
+    height: 520px;
+    opacity: 1;
+    border-radius: 10px 0 0 10px;
+    box-shadow: 40px 40px 22px 8px rgb(14, 12, 12);
+}
+
+.container-in .regis {
+    color: white;
+}
+
+.container-in .regis h3 {
+    font-weight: normal;
+    font-size: 20pt;
+    font-weight: 400;
+}
+
+.container-in .form {
+    width: 400px;
+    height: 520px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(10, 10, 10);
+    box-shadow: 42px 40px 22px 8px rgb(14, 12, 12);
+} 
+
+.form .regis {
+    width: 280px;
+}
+
+.form .regis h3 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.form img {
+    width: 160px;
+    margin-top: 10px;
+}
+
+.form ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.form ul li input {
+    outline: none;
+    padding: 10px 87px 10px 30px;
+    border: 1px solid rgb(142, 139, 139);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background: transparent;
+}
+
+.form ul li input::placeholder {
+    outline: none;
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    padding: 3px 0 3px 0;
+    opacity: 0.7;
+}
+
+.form ul li .icon {
+    width: 30px;
+    position: relative;
+    z-index: 1;
+    top: -31px;
+    margin-bottom: 1px;
+    padding: 3px 10px 0 10px;
+    font-size: 11pt;
+    opacity: 0.7;
+}
+
+.form button {
+    border: 1px solid rgb(142, 139, 139);
+    margin: auto;
+    padding: 10px 117px 10px 117px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    font-size: 11pt;
+    background-color: rgb(9, 9, 9);
+    cursor: pointer;
+}
+
+.form button:hover{
+    background-color: rgb(87, 86, 86);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(142, 139, 139);
+    opacity: 0.7;
+}
+
+.form .h4 h4 {
+    text-align: center;
+    margin-top: 120px;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 11pt;
+}
+
+.form .h4 h4 a {
+    text-decoration: none;
+    font-weight: 100;
+}

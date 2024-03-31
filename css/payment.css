@@ -1,0 +1,1565 @@
+*{
+    box-sizing: border-box;
+    font-family: "propins", sans-serif;
+    }
+
+    body {
+    min-height: 100vh;
+    background-color: rgb(48, 47, 49);
+    background-size: cover;
+    }
+
+    .header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 40px;
+    background: rgb(29, 28, 28);
+    z-index: 100;
+    text-decoration: none;
+    }
+
+    img {
+        width: 50px;
+        display: flex;
+        
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        color: rgb(255, 255, 255);
+    }
+
+    .logo a{
+        font-size: 15pt;
+        margin-left: 5px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    .logo2 {
+        display: none;
+    }
+
+    .logo2 a {
+        display: none;
+    }
+    
+    /*-----------------------------| List Navbar |-----------------------------*/
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    ul .icon i {
+        display: none;
+    }
+
+    ul li{
+        margin-right: 10px;
+    }
+
+    ul a{
+        text-decoration: none;
+        color: white;
+        opacity: 0.5;
+    }
+
+    .hover :hover{
+        text-decoration: none;
+        color: cyan;
+        opacity: 1;
+    }
+    
+    ul i{
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    /*-----------------------------| List Navbar |-----------------------------*/
+    .nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+       /*----------------------------| Icon Dashboard |----------------------------*/
+
+    .icons {
+    visibility: hidden;
+    position: relative;
+    display: show;
+    align-content: center;
+    cursor: pointer;
+    margin: 5px 0 10px 5px;
+    padding: 5px 7px 5px 7px;
+    border: 2px solid rgb(255, 255, 255);
+    opacity: 0.5;
+    border-radius: 5px;
+    }
+
+    .icons:hover{
+    border: 2px solid cyan;
+    opacity: 1;
+    }
+
+    .bar1 {
+        width: 25px;
+        height: 4px;
+        margin-bottom: 4px;
+        border-radius: 5px;
+        background-color: rgb(255, 255, 255);
+    }
+    .bar2 {
+        width: 25px;
+        height: 4px;
+        margin-bottom: 4px;
+        border-radius: 5px;
+        background-color: rgb(255, 255, 255);
+    }
+    .bar3 {
+        width: 25px;
+        height: 4px;
+        border-radius: 5px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    /* -------------------------| ICons End |---------------------------- */
+
+
+    .main-all {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main {
+        width: 1300px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    /* Menu Start */
+    .menu {
+        width: 700px;
+        margin: 80px 30px auto 50px;
+        background-color: #232121;
+        border-radius: 5px;
+    }
+
+    .menu img {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+
+    .menu .img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu .img img {
+        top: 80px;
+        width: 165px;
+        margin: 25px auto 20px auto;
+        border-radius: 3px;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .text h2 {
+        color: rgb(253, 253, 253);
+        text-align: center;
+        font-weight: normal;
+        margin-bottom: 3px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .text .line {
+        width: 150px;
+        padding: 2px;
+        margin: 5px auto auto auto;
+        border-radius: 4px;
+        background-color: rgb(245, 243, 243);
+    }
+
+    .text h4 {
+        color: white;
+        font-weight: normal;
+        margin-left: 15px;
+        font-size: 13pt;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .text p {
+        color: white;
+        margin: 5px 20px 0 15px;
+        font-weight: normal;
+        font-size: 11pt;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .text p a {
+        color: white;
+    }
+
+    .text p a:hover {
+        font-size: 11pt;
+    }
+
+    .text ol {
+        margin: 20px 0 30px 50px;
+        color: white;
+        font-size: 11pt;
+    }
+
+    /* Menu End */
+
+    /* Rigth Start */
+    .top-up {
+        width: 100%;
+        margin: 80px 0 0 0;
+    }
+
+    /* User Start */
+    .id {
+        width: 800px;
+        height: 150px;
+        margin-bottom: 50px;
+        background-color: #232121;
+        border-radius: 5px;
+    }
+
+    .id .h3 {
+        padding: 10px;
+        background-color: rgb(29, 27, 27); 
+        border-radius: 3px 3px 0 0;
+        border: 1px solid rgb(22, 21, 21);
+    }
+
+    .id .h3 h3{
+        margin: 1px 0 0 30px;
+        color: white;
+        font-weight: normal;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .id .button  {
+        width: 800px;
+        margin-top: 0px;
+        padding: 30px;
+        
+    }
+
+    .id .button i {
+        color: white;
+        font-size: 10pt;
+        padding: 10px 10px 9px 10px;
+        background-color: #1a1919;
+        border-radius: 2px 0 0 2px ;
+    }
+
+    .id .button input {
+        padding: 9px 300px 6px 10px;
+        border: 1px solid white;
+        border-radius: 0 2px 2px 0;
+    }
+
+    /* User End */
+
+    /* Chance start */
+
+    .item {
+        width: 800px;
+        background-color: #232121;
+        margin-bottom: 40px;
+        border-radius: 4px;
+    }
+
+    .item .h3 {
+        padding: 10px;
+        background-color: rgb(29, 27, 27); 
+        border-radius: 3px 3px 0 0;
+        border: 1px solid rgb(22, 21, 21);
+    }
+
+    .item .h3 h3{
+        margin: 1px 0 0 30px;
+        color: white;
+        font-weight: normal;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .word h6 {
+        color: white;
+        margin-left: 80px;
+        margin-bottom: 2px;
+        font-size: 15pt;
+        font-weight: normal;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .word h5 {
+        color: white;
+        margin-left: 40px;
+        margin-bottom: 2px;
+        font-size: 13pt;
+        font-weight: normal;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .word .line {
+        width: 80px;
+        padding: 2px;
+        margin: 3px 0 30px 30px;
+        border-radius: 5px;
+        background-color: rgb(252, 252, 252);
+    }
+
+    .item .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .grid-container {
+        width: 900px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+    }
+
+    .grid-item {
+        background-color: rgba(20, 19, 19, 0.8);
+        border: 2px solid rgba(22, 20, 20, 0.8);
+        border-radius: 3px;
+        padding: px;
+        margin: 10px 14px 20px 10px;
+    }
+
+    .grid-item:hover {
+        border: 2px solid white;
+        background-color: rgb(34, 28, 28);
+        border-radius: 3px;
+        transition: 15 0ms;
+    }
+
+    .grid-item h5 { 
+        color: white;
+        margin: 10px 0 1px 10px;
+        padding: 1px;
+        font-size: 10pt;
+    }
+
+    .grid-item h6 {
+        color: white;
+        margin: 5px 0 15px 10px;
+        font-style: italic;
+        font-size: 10px;
+        text-align: left;
+    }
+    /* Chance start */
+    
+    /* e-commerce start */
+    .e-commerce {
+        width: 800px;
+        background-color: #232121;
+        border-radius: 5px;
+        margin-bottom: 50px;
+
+    }
+
+    .e-commerce .h3 {
+        padding: 10px;
+        background-color: rgb(29, 27, 27); 
+        border-radius: 3px 3px 0 0;
+        border: 1px solid rgb(22, 21, 21);
+    }
+
+    .e-commerce .h3 h3{
+        margin: 1px 0 0 30px;
+        color: white;
+        font-weight: normal;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .e-commerce .qris-all {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+    .e-commerce .qris-all .qris-in {
+        border: 1px solid #232121;;
+        width: 700px;
+        margin: 0 0 40px 0;
+        border-radius: 4px;
+    }
+
+    .e-commerce .qris-all .qris-in:hover {
+        border: 1px solid white;
+    }
+
+    .e-commerce .qris-logo .icon {
+        width: 698px;    
+        background-color: #1e1b1b;
+        border-radius: 2px 2px 0 0; 
+        display: flex;
+        align-items: center;                                                                                                                 
+    }
+
+    .e-commerce .qris-logo .icon i {
+        color: white;
+        margin: 0px 5px 0px 30px ;
+    }
+
+    .e-commerce .qris-logo .icon h4 {
+        color: white;
+        font-size: 12px;
+    }
+
+    .e-commerce .qris {
+        width: 698px;
+        padding: 10px;
+        background-color: rgb(44, 40, 40);
+        border-radius: 0 0 2px 2px;
+    }
+
+    .e-commerce .qris-all .qris img {
+        width: 200px;
+        margin: auto 0 auto auto;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: white;
+    }
+
+    .e-commerce .qris-wallet {
+        width: 698px;
+        padding: 10px;
+        background-color: rgb(44, 40, 40);
+        border-radius: 0 0 2px 2px;
+        display: flex;
+        justify-content: right;
+    }
+    
+    .e-commerce .qris-wallet .img {
+        width: 17%;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+
+    .e-commerce .qris-all .qris-wallet img {
+        width: 30px;
+        margin-right: 4px;
+        padding: 5px;
+        background-color: white;
+    }
+
+    .e-commerce .pay-all {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .pay-all .pay-in {
+        width: 200px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pay-in .pay-bttn {
+        width: 100px;
+        height: 40px;
+        border: 1px solid white;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        color: white;
+        transition: 0.5s;
+    }
+
+    .pay-bttn p {
+        margin-top: 12px;
+        font-weight: 500px;
+        font-size: 14px;
+    }
+
+    .pay-bttn:hover {
+        border: 1px solid white;
+        background-color: white;
+        color: black;
+    }
+    
+    /* e-commerce End */
+
+    /* Rigth End */
+
+    /* ------------------------------| Footer Start |---------------------------- */
+    /* -------------------------------| Footer End |---------------------------- */
+
+     @media screen and (max-width: 1300px){
+        .main-all {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .main {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .top-up {
+            width: 100%;
+            margin: 40px 0 0 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+            /* Menu Start */
+        .menu {
+            width: 80%;
+            margin: 80px auto 10px;
+            background-color: #232121;
+            border-radius: 5px;
+        }
+
+        .menu img {
+            width: 100%;
+            margin-top: 30px;
+        }
+
+
+        .menu .img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .menu .img img {
+            top: 80px;
+            width: 20%;
+            margin: 25px auto 20px auto;
+            border-radius: 3px;
+            position: absolute;
+            z-index: 1;
+        }
+
+        .text h2 {
+            color: rgb(253, 253, 253);
+            text-align: center;
+            font-weight: normal;
+            margin-bottom: 3px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .text .line {
+            width: 130px;
+            padding: 2px;
+            border-radius: 4px;
+            background-color: rgb(245, 243, 243);
+        }
+
+        .text h4 {
+            color: white;
+            font-weight: normal;
+            margin-left: 15px;
+            font-size: 13pt;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .text p {
+            color: white;
+            margin: 5px 20px 0 15px;
+            font-weight: normal;
+            font-size: 11pt;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .text p a {
+            color: white;
+        }
+
+        .text p a:hover {
+            font-size: 11pt;
+        }
+
+        .text ol {
+            margin: 20px 0 30px 20px;
+            color: white;
+            font-size: 11pt;
+        }
+
+        /* Menu End */
+
+        /* User Start */
+        .id {
+            width: 80%;
+            height: 150px;
+            margin-bottom: 50px;
+            background-color: #232121;
+            border-radius: 4px;
+        }
+
+        .id .h3 {
+            padding: 10px;
+            background-color: rgb(29, 27, 27); 
+            border-radius: 3px 3px 0 0;
+            border: 1px solid rgb(22, 21, 21);
+        }
+
+        .id .h3 h3{
+            margin: 1px 0 0 30px;
+            color: white;
+            font-weight: normal;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .id .button  {
+            width: 100%;
+            margin-top: 0px;
+            padding: 30px;
+            
+        }
+
+        .id .button i {
+            color: white;
+            font-size: 10pt;
+            padding: 10px 10px 9px 10px;
+            background-color: #1a1919;
+            border-radius: 2px 0 0 2px ;
+        }
+
+        .id .button input {
+            width: 90%;
+            padding: 9px 0 6px 10px;
+            border: 1px solid white;
+            border-radius: 0 2px 2px 0;
+        }
+
+        /* User End */
+
+        /* Chance start */
+
+        .item {
+            width: 80%;
+            background-color: #232121;
+            margin-bottom: 40px;
+            border-radius: 4px;
+        }
+
+        .item .h3 {
+            padding: 10px;
+            background-color: rgb(29, 27, 27); 
+            border-radius: 3px 3px 0 0;
+            border: 1px solid rgb(22, 21, 21);
+        }
+
+        .item .h3 h3{
+            margin: 1px 0 0 30px;
+            color: white;
+            font-weight: normal;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .word h6 {
+            color: white;
+            margin-left: 79px;
+            margin-bottom: 2px;
+            font-size: 15pt;
+            font-weight: normal;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .word h5 {
+            color: white;
+            margin-left: 25px;
+            margin-bottom: 2px;
+            font-size: 13pt;
+            font-weight: normal;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .word .line {
+            width: 80px;
+            padding: 2px;
+            margin: 3px 0 30px 20px;
+            border-radius: 4px;
+            background-color: rgb(252, 252, 252);
+        }
+
+        .item .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .grid-container {
+            width: 800px;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            padding: 10px;
+        }
+
+        .grid-item {
+            background-color: rgba(20, 19, 19, 0.8);
+            border: 2px solid rgba(22, 20, 20, 0.8);
+            border-radius: 3px;
+            padding: px;
+            margin: 10px 14px 20px 10px;
+        }
+
+        .grid-item:hover {
+            border: 2px solid white;
+            background-color: rgb(34, 28, 28);
+            border-radius: 3px;
+            transition: 15 0ms;
+        }
+
+        .grid-item h5 { 
+            color: white;
+            margin: 10px 0 1px 10px;
+            padding: 1px;
+            font-size: 10pt;
+        }
+
+        .grid-item h6 {
+            color: white;
+            margin: 1px 0 15px 10px;
+            font-style: italic;
+            font-size: 10px;
+        }
+        /* Chance start */
+        
+        /* e-commerce start */
+        .e-commerce {
+            width: 80%;
+            background-color: #232121;
+            border-radius: 4px;
+            margin-bottom: 50px;
+
+        }
+
+        .e-commerce .h3 {
+            padding: 10px;
+            background-color: rgb(29, 27, 27); 
+            border-radius: 3px 3px 0 0;
+            border: 1px solid rgb(22, 21, 21);
+        }
+
+        .e-commerce .h3 h3{
+            margin: 1px 0 0 30px;
+            color: white;
+            font-weight: normal;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .e-commerce .qris-all {
+            width: 100%;     
+            margin-top: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .e-commerce .qris-all .qris-in {
+            border: 1px solid #232121;;
+            width: 90%;
+            margin: 0 0 40px 0;
+            border-radius: 4px;
+        }
+
+        .e-commerce .qris-all .qris-in:hover {
+            border: 1px solid white;
+        }
+
+        .e-commerce .qris-logo .icon {
+            width: 100%;    
+            background-color: #1e1b1b;
+            border-radius: 2px 2px 0 0; 
+            display: flex;
+            align-items: center;                                                                                                         
+        }
+
+        .e-commerce .qris-logo .icon i {
+            color: white;
+            margin: 0px 5px 0px 30px ;
+        }
+
+        .e-commerce .qris-logo .icon h4 {
+            color: white;
+            font-size: 12px;
+        }
+
+        .e-commerce .qris {
+            width: 100%;
+            padding: 10px;
+            background-color: rgb(44, 40, 40);
+            border-radius: 0 0 2px 2px;
+        }
+
+        .e-commerce .qris-all .qris img {
+            width: 250px;
+            margin: auto 0 auto auto;
+            padding: 5px;
+            border-radius: 5px;
+            background-color: white;
+        }
+
+        .e-commerce .qris-wallet {
+            width: 100%;
+            padding: 10px;
+            background-color: rgb(44, 40, 40);
+            border-radius: 0 0 2px 2px;
+            display: flex;
+            justify-content: right;
+        }
+        
+        .e-commerce .qris-wallet .img {
+            width: 17%;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: right;
+        }
+
+        .e-commerce .qris-all .qris-wallet img {
+            width: 40px;
+            margin-right: 4px;
+            padding: 5px;
+            border-radius: 5px;
+        }
+     }
+     
+     @media screen and (max-width: 800px){
+
+         /* Menu Start */
+         .menu {
+            width: 80%;
+            margin: 80px auto 10px;
+            background-color: #232121;
+            border-radius: 7px;
+        }
+
+        .menu img {
+            width: 100%;
+            margin-top: 30px;
+        }
+
+
+        .menu .img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .menu .img img {
+            top: 80px;
+            width: 25%;
+            margin: 25px auto 20px auto;
+            border-radius: 3px;
+            position: absolute;
+            z-index: 1;
+        }
+
+        .text h2 {
+            color: rgb(253, 253, 253);
+            text-align: center;
+            font-weight: normal;
+            margin-bottom: 3px;
+            font-size: 16pt;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .text .line {
+            width: 130px;
+            padding: 2px;
+            margin: 5px auto auto auto;
+            border-radius: 4px;
+            background-color: rgb(245, 243, 243);
+        }
+
+        .text h4 {
+            color: white;
+            font-weight: normal;
+            margin-left: 15px;
+            font-size: 13pt;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .text p {
+            color: white;
+            margin: 5px 20px 0 15px;
+            font-weight: normal;
+            font-size: 11pt;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .text p a {
+            color: white;
+        }
+
+        .text p a:hover {
+            font-size: 11pt;
+        }
+
+        .text ol {
+            margin: 20px 0 30px 20px;
+            color: white;
+            font-size: 11pt;
+        }
+
+        /* Menu End */
+
+        /* User Start */
+        .id {
+            width: 80%;
+            height: 150px;
+            margin-bottom: 50px;
+            background-color: #232121;
+            border-radius: 4px;
+        }
+
+        .id .h3 {
+            padding: 10px;
+            background-color: rgb(29, 27, 27); 
+            border-radius: 3px 3px 0 0;
+            border: 1px solid rgb(22, 21, 21);
+        }
+
+        .id .h3 h3{
+            margin: 1px 0 0 30px;
+            color: white;
+            font-weight: normal;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .id .button  {
+            width: 100%;
+            margin-top: 0px;
+            padding: 30px;
+            
+        }
+
+        .id .button i {
+            color: white;
+            font-size: 10pt;
+            padding: 10px 10px 9px 10px;
+            background-color: #1a1919;
+            border-radius: 2px 0 0 2px ;
+        }
+
+        .id .button input {
+            width: 90%;
+            padding: 9px 0 6px 10px;
+            border: 1px solid white;
+            border-radius: 0 2px 2px 0;
+        }
+
+        /* User End */
+
+         /* Chance start */
+
+         .item {
+            width: 80%;
+            background-color: #232121;
+            margin-bottom: 40px;
+            border-radius: 4px;
+        }
+
+        .item .h3 {
+            padding: 10px;
+            background-color: rgb(29, 27, 27); 
+            border-radius: 3px 3px 0 0;
+            border: 1px solid rgb(22, 21, 21);
+        }
+
+        .item .h3 h3{
+            margin: 1px 0 0 30px;
+            color: white;
+            font-weight: normal;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .word h6 {
+            color: white;
+            margin-left: 79px;
+            margin-bottom: 2px;
+            font-size: 15pt;
+            font-weight: normal;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .word h5 {
+            color: white;
+            margin-left: 78 px;
+            margin-bottom: 2px;
+            font-size: 13pt;
+            font-weight: normal;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .word .line {
+            width: 80px;
+            padding: 2px;
+            margin: 3px 0 30px 20px;
+            border-radius: 4px;
+            background-color: rgb(252, 252, 252);
+        }
+
+        .item .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .grid-container {
+            width: 700px;
+            display: grid;
+            grid-template-columns: auto auto;
+            padding: 10px;
+        }
+
+        .grid-item {
+            background-color: rgba(20, 19, 19, 0.8);
+            border: 2px solid rgba(22, 20, 20, 0.8);
+            border-radius: 3px;
+            padding: px;
+            margin: 10px 10px 20px 10px;
+        }
+
+        .grid-item:hover {
+            border: 2px solid white;
+            background-color: rgb(34, 28, 28);
+            border-radius: 3px;
+            transition: 15 0ms;
+        }
+
+        .grid-item h5 { 
+            color: white;
+            margin: 10px 0 1px 10px;
+            padding: 1px;
+            font-size: 10pt;
+        }
+
+        .grid-item h6 {
+            color: white;
+            margin: 1px 0 15px 10px;
+            font-style: italic;
+            font-size: 10px;
+        }
+        /* Chance start */
+
+        /* e-commerce start */
+        .e-commerce {
+            width: 80%;
+            background-color: #232121;
+            border-radius: 4px;
+            margin-bottom: 50px;
+
+        }
+
+        .e-commerce .h3 {
+            padding: 10px;
+            background-color: rgb(29, 27, 27); 
+            border-radius: 3px 3px 0 0;
+            border: 1px solid rgb(22, 21, 21);
+        }
+
+        .e-commerce .h3 h3{
+            margin: 1px 0 0 30px;
+            color: white;
+            font-weight: normal;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .e-commerce .qris-all {
+            width: 100%;     
+            margin-top: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .e-commerce .qris-all .qris-in {
+            border: 1px solid #232121;;
+            width: 90%;
+            margin: 0 0 40px 0;
+            border-radius: 4px;
+        }
+
+        .e-commerce .qris-all .qris-in:hover {
+            border: 1px solid white;
+        }
+
+        .e-commerce .qris-logo .icon {
+            width: 100%;    
+            background-color: #1e1b1b;
+            border-radius: 2px 2px 0 0; 
+            display: flex;
+            align-items: center;                                                                                                         
+        }
+
+        .e-commerce .qris-logo .icon i {
+            color: white;
+            font-size: 11pt;
+            margin: 0px 5px 0px 30px ;
+        }
+
+        .e-commerce .qris-logo .icon h4 {
+            color: white;
+            font-size: 10px;
+        }
+
+        .e-commerce .qris {
+            width: 100%;
+            padding: 10px;
+            background-color: rgb(44, 40, 40);
+            border-radius: 0 0 2px 2px;
+        }
+
+        .e-commerce .qris-all .qris img {
+            width: 250px;
+            margin: auto 0 auto auto;
+            padding: 5px;
+            border-radius: 5px;
+            background-color: white;
+        }
+
+        .e-commerce .qris-wallet {
+            width: 100%;
+            padding: 10px;
+            background-color: rgb(44, 40, 40);
+            border-radius: 0 0 2px 2px;
+            display: flex;
+            justify-content: right;
+        }
+        
+        .e-commerce .qris-wallet .img {
+            width: 17%;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: right;
+        }
+
+        .e-commerce .qris-all .qris-wallet img {
+            width: 30px;
+            margin-right: 4px;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        .nav ul {
+            transform: translateX(110%);
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 575px ) {
+        .icons{
+            visibility: visible;
+        }
+
+        .nav ul{
+            display: block;
+            position: fixed;
+            padding: 0 75px 0 0;
+            right: 0px;
+            height: 100vh;
+            top: 40px;
+            box-shadow: -11px 20px 20px 1px ;
+            background-color: rgb(29, 28, 28);
+            opacity: 1;
+            transition: all 1s;
+        }
+
+        .nav ul.slide{
+            opacity: 1;
+            transform: translateX(0%);
+        }
+
+
+        ul .icon i {
+            display: block;
+            color: white;
+            font-size: 20pt;
+            margin: 25px 0 0 30px;
+        }
+
+        .nav .logo2{
+            display: flex; 
+            align-items: center;
+            margin: 10px 0 0 50px;
+            color: rgb(255, 255, 255);           
+        }
+
+        .logo2 a{
+            display: flex;
+            font-size: 15pt;
+            margin-left: 5px;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            opacity: 1;
+        }
+
+        .nav li {
+            margin: 25px 0 0 45px;
+            
+        }
+
+        .line{
+           width: 80%;
+           margin:5px 0 0 40px;
+           padding: 1px;
+           border-radius: 5px;
+           background-color: white; 
+        }
+
+            /* Menu Start */
+        .menu {
+            width: 90%;
+            margin: 80px auto 10px;
+            background-color: #232121;
+            border-radius: 7px;
+        }
+
+        .menu img {
+            width: 100%;
+            margin-top: 30px;
+        }
+
+
+        .menu .img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .menu .img img {
+            top: 80px;
+            width: 30%;
+            margin: 25px auto 20px auto;
+            border-radius: 3px;
+            position: absolute;
+            z-index: 1;
+        }
+
+        .text h2 {
+            color: rgb(253, 253, 253);
+            text-align: center;
+            font-weight: normal;
+            margin-bottom: 3px;
+            font-size: 14pt;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .text .line {
+            width: 120px;
+            padding: 2px;
+            margin: 5px auto auto auto;
+            border-radius: 4px;
+            background-color: rgb(245, 243, 243);
+        }
+
+        .text h4 {
+            color: white;
+            font-weight: normal;
+            margin-left: 15px;
+            font-size: 13pt;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .text p {
+            color: white;
+            margin: 5px 20px 0 15px;
+            font-weight: normal;
+            font-size: 11pt;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .text p a {
+            color: white;
+        }
+
+        .text p a:hover {
+            font-size: 11pt;
+        }
+
+        .text ol {
+            margin: 20px 5px 30px 10px;
+            color: white;
+            font-size: 9pt;
+        }
+
+        /* Menu End */
+
+        /* User Start */
+        .id {
+            width: 90%;
+            height: 150px;
+            margin-bottom: 50px;
+            background-color: #232121;
+            border-radius: 4px;
+        }
+
+        .id .h3 {
+            padding: 10px;
+            background-color: rgb(29, 27, 27); 
+            border-radius: 3px 3px 0 0;
+            border: 1px solid rgb(22, 21, 21);
+        }
+
+        .id .h3 h3{
+            margin: 1px 0 0 10px;
+            color: white;
+            font-weight: normal;
+            font-size: 12pt;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .id .button  {
+            width: 100%;
+            margin-top: 0px;
+            padding: 30px;
+            
+        }
+
+        .id .button i {
+            color: white;
+            font-size: 10pt;
+            padding: 10px 10px 9px 10px;
+            background-color: #1a1919;
+            border-radius: 2px 0 0 2px ;
+        }
+
+        .id .button input {
+            width: 80%;
+            padding: 9px 0 6px 10px;
+            border: 1px solid white;
+            border-radius: 0 2px 2px 0;
+        }
+
+        /* User End */
+
+        /* Chance start */
+
+        .item {
+            width: 90%;
+            background-color: #232121;
+            margin-bottom: 40px;
+            border-radius: 4px;
+        }
+
+        .item .h3 {
+            padding: 10px;
+            background-color: rgb(29, 27, 27); 
+            border-radius: 3px 3px 0 0;
+            border: 1px solid rgb(22, 21, 21);
+        }
+
+        .item .h3 h3{
+            margin: 1px 0 0 10px;
+            color: white;
+            font-weight: normal;
+            font-size: 12pt;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .word h6 {
+            color: white;
+            margin-left: 50px;
+            margin-bottom: 2px;
+            font-size: 12pt;
+            font-weight: normal;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .word h5 {
+            color: white;
+            margin-left: 15px;
+            margin-bottom: 2px;
+            font-size: 12pt;
+            font-weight: normal;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .word .line {
+            width: 70px;
+            padding: 2px;
+            margin: 3px 0 30px 10px;
+            border-radius: 4px;
+            background-color: rgb(252, 252, 252);
+        }
+
+        .item .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .grid-container {
+            width: 700px;
+            display: grid;
+            grid-template-columns: auto auto;
+            padding: 10px;
+        }
+
+        .grid-item {
+            background-color: rgba(20, 19, 19, 0.8);
+            border: 2px solid rgba(22, 20, 20, 0.8);
+            border-radius: 3px;
+            padding: px;
+            margin: 10px 14px 10px 10px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .grid-item:hover {
+            border: 2px solid white;
+            background-color: rgb(34, 28, 28);
+            border-radius: 3px;
+            transition: 15 0ms;
+        }
+
+        .grid-item h5 { 
+            color: white;
+            margin: 10px 5px 1px 10px;
+            padding: 1px;
+            font-size: 8pt;
+        }
+
+        .grid-item h6 {
+            color: white;
+            margin: 1px 0 15px 10px;
+            font-style: italic;
+            font-size: 7pt;
+        }
+
+        /* Chance start */
+        
+        /* e-commerce start */
+        .e-commerce {
+            width: 90%;
+            background-color: #232121;
+            border-radius: 4px;
+            margin-bottom: 50px;
+
+        }
+
+        .e-commerce .h3 {
+            padding: 10px;
+            background-color: rgb(29, 27, 27); 
+            border-radius: 3px 3px 0 0;
+            border: 1px solid rgb(22, 21, 21);
+        }
+
+        .e-commerce .h3 h3{
+            margin: 1px 0 0 10px;
+            color: white;
+            font-size: 12pt;
+            font-weight: normal;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .e-commerce .qris-all {
+            width: 100%;     
+            margin-top: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .e-commerce .qris-all .qris-in {
+            border: 1px solid #232121;;
+            width: 90%;
+            margin: 0 0 20px 0;
+            border-radius: 4px;
+        }
+
+        .e-commerce .qris-all .qris-in:hover {
+            border: 1px solid white;
+        }
+
+        .e-commerce .qris-logo .icon {
+            width: 100%;    
+            background-color: #1e1b1b;
+            border-radius: 2px 2px 0 0; 
+            display: flex;
+            align-items: center;                                                                                                         
+        }
+
+        .e-commerce .qris-logo .icon i {
+            color: white;
+            font-size: 11pt;
+            margin: 0px 5px 0px 30px ;
+        }
+
+        .e-commerce .qris-logo .icon h4 {
+            color: white;
+            font-size: 10px;
+        }
+
+        .e-commerce .qris {
+            width: 100%;
+            padding: 10px;
+            background-color: rgb(44, 40, 40);
+            border-radius: 0 0 2px 2px;
+        }
+
+        .e-commerce .qris-all .qris img {
+            width: 200px;
+            margin: auto 0 auto auto;
+            padding: 5px;
+            border-radius: 5px;
+            background-color: white;
+        }
+
+        .e-commerce .qris-wallet {
+            width: 100%;
+            padding: 10px;
+            background-color: rgb(44, 40, 40);
+            border-radius: 0 0 2px 2px;
+            display: flex;
+            justify-content: right;
+        }
+        
+        .e-commerce .qris-wallet .img {
+            width: 17%;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: right;
+        }
+
+        .e-commerce .qris-all .qris-wallet img {
+            width: 30px;
+            margin-right: 4px;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        /* e-commerce end */
+    }
